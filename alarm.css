@@ -1,0 +1,91 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+html{
+    font-family: sans-serif;
+    scroll-behavior: smooth;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(223, 249, 249);
+}
+.container{
+    display: grid;
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 1px 1px rgb(197, 197, 253);
+}
+.time{
+    height: 10vh;
+    width: 200px;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#addButton{
+    padding: 5px;
+    background: inherit;
+    border: none;
+    font-size: 25px;
+    color: blue;
+    cursor: pointer;
+}
+.addTime{
+    font-size: 20px;
+    border: solid 1px black;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 5px;
+    box-shadow: 0 4px 8px 0 #8baf7680;
+    margin-bottom: 10px;
+}
+.button{
+    height: 40px;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 17px;
+}
+#add{
+    background-color: #004cff;
+    box-shadow: 0 4px 8px 0 #004cff;
+    width: 140px;
+    border: solid 1px blue;
+}
+#cancel{
+    background-color: #f60d0d;
+    box-shadow: 0 4px 8px 0 #f60d0d;
+    width: 70px;
+    border: solid 1px red;
+}
+.newAlarm, .alarmbox{
+    padding: 5px;
+    font-size: 20px;
+    font-weight: 700;
+    display: flex;
+    background-color: antiquewhite;
+    border-radius: 5px;
+    margin-top: 15px;
+    box-shadow: 0 4px 8px 0 #8baf7680;
+}
+.showAlarm{
+    flex-grow: 2;
+}
+svg{
+    flex-grow: 1;
+    cursor: pointer;
+}
+svg:hover{
+    background-color: rgb(255, 255, 255);
+    border-radius: 20%;
+}
+.check{
+    cursor: pointer;
+}
